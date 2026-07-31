@@ -1,0 +1,1 @@
+"""The three Provider Interfaces (interfaces.md Section 5): Embedding, Vector Store, and LLM. Pipeline stages depend on these contracts only, never on a concrete implementation. Not yet implemented."""

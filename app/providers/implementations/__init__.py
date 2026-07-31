@@ -1,0 +1,1 @@
+"""Concrete Provider Implementations. The only place a vendor SDK is imported (ADR-002). Intentionally empty: vector database (ADR-003), embedding model (ADR-004), and LLM provider (ADR-005) selection remain open."""
