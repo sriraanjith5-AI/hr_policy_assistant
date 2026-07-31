@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / caching
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+htmlcov/
+.coverage
+.coverage.*
+
+# Environment variables / secrets — never commit, even if currently empty
+.env
+.env.*
+!.env.example
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local vector index / database artifacts
+.faiss/
+*.db
+
+# Claude Code local (machine-specific) settings and temp state
+.claude/
+
+# Third-party proprietary sample document — not ours to redistribute (see data/README.md)
+data/IIA_HR_Policy.pdf
